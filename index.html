@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="nav-left">
+            <a href="#home" class="nav-item">Home</a>
+            <a href="#about" class="nav-item">About Me</a>
+        </div>
+        <h1 id="hdr">My Portfolio</h1>
+        <div class="nav-right">
+            <a href="#projects" class="nav-item">Projects</a>
+            <a href="#contact" class="nav-item">Contact</a>
+        </div>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="hero-content">
+            <img src="Prima.png" alt="Profile Picture" class="hero-avatar">
+            <h2>Hello, I'm Prima Joy Nool</h2>
+            <p>Welcome to my portfolio. I'm a BSIT student at Phinma Araullo University.</p>
+            <p>This portfolio contains some of my projects and activities.</p>
+            <div class="hero-buttons">
+                <button class="cta-button" onclick="scrollToSection('projects')">View My Work</button>
+                <a href="Resume.pdf" download class="cta-button">Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <p>I'm a passionate developer in web development. I love creating clean, responsive websites and learning new technologies.</p>
+            <div class="skills">
+                <h3>Skills</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Java</li>
+                    <li>Python</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>399 Activity</h3>
+                <p>A simple but not responsive website using HTML and CSS. A basic implementation of simple frameworks.</p>
+                <a href="https://dino0207.github.io/joyce/index.html" target="_blank" class="project-link">View Project →</a>
+            </div>
+            <div class="project-card">
+                <h3>My Portfolio</h3>
+                <p>A portfolio website showcasing my skills and experience in web development and design.</p>
+                <a href="#" class="project-link">View Project →</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+    <h2>Get In Touch</h2>
+    <div class="contact-content">
+        <p>I'd love to hear from you! Feel free to reach out.</p>
+        <div class="contact-info">
+            <div class="contact-info-item">
+                <span class="contact-icon">📞</span>
+                <span>+63 985 043 7590</span>
+            </div>
+            <div class="contact-info-item">
+                <span class="contact-icon">✉️</span>
+                <span>primajoynool@gmail.com</span>
+            </div>
+            <div class="contact-info-item">
+                <span class="contact-icon">📍</span>
+                <span>San Esteban, Rizal, Nueva Ecija</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <footer>
+        <p>&copy; 2026 My Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
